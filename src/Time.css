@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.datepage{
+width: 100%;
+height: 100vh;
+background-color: lightgray;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.time{
+  width: 25%;
+  height: 55vh;
+  margin-bottom: 75px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navigator{
+width: 40%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+

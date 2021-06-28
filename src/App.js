@@ -1,11 +1,20 @@
-
+import React from 'react';
 import './App.css';
-
-function App() {
+import Home from './Home';
+import Time from './Time';
+import Data from './Data';
+import Currency from './Currency';
+import {Route, Switch} from 'react-router-dom';
+function App (){
   return (
-    <div>
-    <p>this is react .js</p>
-    </div>
+    <>
+  <Switch>
+    <Route exact path='/Home' component={Home} />
+    <Route path='/Time' component={Time} />
+    <Route path='/Data' component={Data}/>
+    <Route path='/Currency' component={Currency}/>
+  </Switch>
+    </>
   );
 }
 
